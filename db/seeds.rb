@@ -12,7 +12,7 @@ restaurants = []
 
 5.times do
   hsh = {
-  name: Faker::Hipster.sentence(4),
+  name: Faker::Company.name,
   address: Faker::Address.street_address,
   phone_number: Faker::PhoneNumber.cell_phone,
   category: ["chinese", "italian", "japanese", "french", "belgian"].sample,
